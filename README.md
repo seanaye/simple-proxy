@@ -6,7 +6,9 @@ Very simple proxy for running stuff on a local port.
 
 Requires deno to be installed on your system
 
-`deno run -A https://raw.githubcontent.com/seanaye/simple-proxy/mod.ts --to [SOME_URL] --port [LOCAL_PORT_NUMBER]`
+```
+deno run -A https://raw.githubusercontent.com/seanaye/simple-proxy/main/mod.ts --to [SOME_URL] --port [LOCAL_PORT_NUMBER]
+```
 
 ### Why is this useful
 
